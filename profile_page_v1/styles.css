@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/buckhornmt2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,6 +76,24 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
+header .web-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 15%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+header .philo-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  border: 3px solid white;
+  transition: all .5s;
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -88,6 +106,25 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+
+.webheader {
+  color:darkred;
+}
+
+.websubheader {
+  background-color: #222;
+  color:rgb(245, 23, 23);
+}
+
+.philoheader {
+  color:rgb(197, 171, 21);
+}
+
+.philosubheader {
+  background-color: #222;
+  color:rgb(186, 245, 23);
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -139,6 +176,14 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+.alternatelinks {
+  color:rgb(72, 151, 241);
+}
+
+.alternatelinks:hover{
+  color:rgb(31, 31, 201);
 }
 
 a.social {
