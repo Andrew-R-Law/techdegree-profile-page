@@ -1,3 +1,10 @@
+/* I made just a handful of changes to this document:
+1. I added the class "alternatelinks" and pseudo-class "alternatelinks:hover" to change the color of some of the hyperlinks.
+2. I changed the "main-nav" class to the nav type.
+3. I changed the "card" class to the section type.
+4. I added the "header web-image" and the "header philo-image" class to change the formatting of the relevant image.
+5. I added the "webheader", "websubheader", "philoheader", and "philsubheader" to change the color the text in the relevant headers.  */
+
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
@@ -21,9 +28,17 @@ a:hover {
   color: #6633ff;
 }
 
+.alternatelinks {
+  color:rgb(72, 151, 241);
+}
+
+.alternatelinks:hover{
+  color:rgb(31, 31, 201);
+}
+
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -125,7 +140,7 @@ header .philo-image {
   color:rgb(186, 245, 23);
 }
 
-.card {
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -135,7 +150,7 @@ header .philo-image {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+section:hover {
   border-color: #ff99ff;
 }
 
@@ -178,13 +193,7 @@ footer ul li {
   display: inline-block;
 }
 
-.alternatelinks {
-  color:rgb(72, 151, 241);
-}
 
-.alternatelinks:hover{
-  color:rgb(31, 31, 201);
-}
 
 a.social {
   display: inline-block;
